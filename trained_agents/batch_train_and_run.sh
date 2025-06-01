@@ -9,8 +9,8 @@
 # and runs 1000 episodes of the environment for each trained agent.
 # By default 10 trainings/runs are run in parallel, and both the final models,
 # training statistics, and statistics of the runs are saved to ./data/
-n=500 # number of agents
-parallelism=8 # number of trainings/runs that are run in parallel
+n=2 # number of agents
+parallelism=2 # number of trainings/runs that are run in parallel
 output_dir=$(pwd)"/data" # output dir
 # 
 # The script assumes that the the agent class agent_class.py and the scripts
